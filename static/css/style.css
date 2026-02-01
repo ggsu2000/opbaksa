@@ -54,3 +54,30 @@ footer { background: var(--primary); color: #bdc3c7; text-align: center; padding
     .menu { display: none; } /* Mobile Menu functionality omitted for simplicity */
     .hero h1 { font-size: 1.8rem; }
 }
+.cta-wrapper {
+    margin-top: 20px;
+}
+
+.cta-main {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(45deg, #ff3c3c, #ff8800);
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: all 0.25s ease;
+}
+
+.cta-main:hover {
+    transform: translateY(-3px) scale(1.05);
+}
+
+.cta-sub {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #ddd;
+}
